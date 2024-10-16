@@ -45,13 +45,9 @@ body {
 .eclipse-section .eclipse {
     position: relative;
     width: 100%;
-    /* Width of the eclipse */
     height: 32rem;
-    /* Height of the eclipse */
     background-color: #ff7043;
-    /* Color of the eclipse */
     border-radius: 50%;
-    /* Makes it oval-shaped */
     z-index: 1;
     top: 10rem;
 
@@ -159,9 +155,10 @@ body {
     font-size: 3rem;
     color: white;
     z-index: 20;
-    left: 36rem;
+    left: 32rem;
     font-weight: bold;
     text-align: center;
+    font-family: "Quicksand", sans-serif;
 }
 
 /* intro and heading section */
