@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: bold;
+    font-family: "Quicksand", sans-serif;
+    margin: 10px 10px 0px 0px;
+}
+
+.heading {
+    font-size: 5rem;
+    color: #E76943;
+}
+
+.sub-heading {
+    font-weight: bold;
+    position: relative;
+    top: -1rem;
+    font-size: 1rem;
+    color: #4C4C4C
+}
+
+.athlete-section {
+    background-color: rgb(245, 242, 239);
+    margin-top: 1rem;
+}
+
+/* Eclipse shape */
+.eclipse-section .eclipse {
+    position: relative;
+    width: 100%;
+    /* Width of the eclipse */
+    height: 32rem;
+    /* Height of the eclipse */
+    background-color: #ff7043;
+    /* Color of the eclipse */
+    border-radius: 50%;
+    /* Makes it oval-shaped */
+    z-index: 1;
+    top: 10rem;
+
+}
+
+.eclipse-section .ring1 {
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    border: 30px solid #0081c9;
+    border-radius: 100%;
+    background-color: transparent;
+    z-index: 10;
+    top: 14rem;
+    left: -4rem;
+}
+
+.eclipse-section .ring2 {
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    border: 30px solid orange;
+    border-radius: 100%;
+    background-color: transparent;
+    z-index: 10;
+    top: 25rem;
+    left: 8rem;
+}
+
+.eclipse-section .ring3 {
+    position: absolute;
+    width: 25rem;
+    height: 23rem;
+    border: 30px solid rgb(43, 29, 3);
+    border-radius: 100%;
+    background-color: transparent;
+    z-index: 5;
+    top: 17rem;
+    left: 30rem;
+}
+
+.eclipse-section .ring4 {
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    border: 30px solid rgb(24, 253, 24);
+    border-radius: 100%;
+    background-color: transparent;
+    z-index: 10;
+    top: 25rem;
+    right: 20rem;
+}
+
+.eclipse-section .ring5 {
+    position: absolute;
+    width: 28rem;
+    height: 28rem;
+    border: 30px solid rgb(255, 13, 13);
+    border-radius: 100%;
+    background-color: transparent;
+    z-index: 10;
+    top: 14rem;
+    right: -2rem;
+}
+
+.athlete1 {
+    position: absolute;
+    top: 10rem;
+    z-index: 10;
+    height: 44rem;
+
+}
+
+.athlete2 {
+    position: absolute;
+    top: 20rem;
+    z-index: 10;
+    height: 34rem;
+    width: 34rem;
+    left: 7rem;
+}
+
+.athlete3 {
+    position: absolute;
+    top: 29rem;
+    z-index: 20;
+    height: 25rem;
+    left: 34rem;
+}
+
+.athlete4 {
+    position: absolute;
+    top: 19rem;
+    z-index: 10;
+    height: 35rem;
+    width: 25rem;
+    right: 15rem;
+}
+
+
+
+.quote {
+    position: absolute;
+    top: 19.5rem;
+    font-size: 3rem;
+    color: white;
+    z-index: 20;
+    left: 36rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* intro and heading section */
+
+.intro-heading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 18rem;
+    padding: 0rem 2rem;
+    margin: 5rem 0rem;
+
+}
+
+.intro {
+    position: absolute;
+    font-family: "Quicksand", sans-serif;
+    color: #4C4C4C;
+    font-size: 2rem;
+    padding: 1rem 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.heading-athlete {
+    position: absolute;
+    color: #E76943;
+    font-size: 3rem;
+    top: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.descriptiion {
+    position: relative;
+    text-align: center;
+    top: 30rem;
+    margin-top: 6rem;
+
+}
+
+.descriptiion-athletics {
+    position: absolute;
+    font-family: "Quicksand", sans-serif;
+    color: #4C4C4C;
+    font-size: 2rem;
+    padding: 1rem 5rem;
+    margin-bottom: 3rem;
+    padding: 0rem 10rem
+}
+
+
+/* characterstics */
+
+.characterstics {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 46rem;
+    margin-top: 10rem;
+}
+
+.characterstics child {
+    margin: 5rem 0rem
+}
+
+.characterstics-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0rem;
+}
+
+
+.characterstics-container img {
+    height: 24rem;
+    margin-left: 10rem;
+}
+
+.characterstics-description {
+    display: flex;
+    flex-direction: column;
+    font-family: "Quicksand", sans-serif;
+    color: #4C4C4C;
+    font-size: 2rem;
+    padding: 1rem 10rem;
+    margin-bottom: 1rem;
+
+}
+
+.characterstics-description h1 {
+    font-size: 3rem;
+    color: #E76943;
+    margin-bottom: 3rem;
+}
+
+.container2 {
+    position: absolute;
+    top: 32rem;
+}
+
+
+.container3 {
+    position: absolute;
+    top: 64rem;
+}
+
+.athletes-quotes {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 148rem;
+}
+
+.athletes-quotes-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 20rem;
+}
+
+
+.athletes-quotes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.athletes-quotes-description {
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+    justify-content: end;
+    align-items: end;
+    padding: 1rem 0rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.athletes-quotes-text {
+    color: #4C4C4C;
+    font-weight: bold;
+    text-align: end;
+}
+
+.athletes-quotes-name {
+    color: #4C4C4C;
+    margin-top: 1rem;
+}
+
+.athletes-quotes-image img{
+    height: 22rem;
+    margin-left: 5rem;
+
+}
+
+.zig-zag-line {
+    position: relative;
+    width: 15rem;
+    margin: 3rem 0rem;
+    right: 6.5rem;
+}
+
+.footer-section{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 150rem;
+    padding: 5rem 10rem;
+    background-color: #FAFAFA;
+}
+
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.company-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    color: #E76943;
+    font-weight: bolder;
+}
+
+.company-name{
+    font-size: 5rem;
+}
+
+.company-description{
+    position: relative;
+    bottom: 1rem;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    font-family: "Quicksand", sans-serif;
+    color: #4C4C4C;
+    font-size: .5rem;
+    padding: 1rem 0rem;
+    margin-bottom: 1rem;
+}
+
+.contact-details p{
+    margin-bottom: 1rem;
+}
+
+.contact-details a{
+    color: #4C4C4C;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+
+.social-media-links-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+
+.social-media-links{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.social-media-links img{
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+
+.other-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.other-links img{
+    height: 2.5rem;
+}
+
+.other-links a{
+    color: #4C4C4C;
+    font-family: "Quicksand", sans-serif;
+    font-size: .5rem;
+    margin-bottom: 1rem;
+}
